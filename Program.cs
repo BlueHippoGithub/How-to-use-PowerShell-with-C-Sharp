@@ -3,7 +3,7 @@
 using PowershellShowcase;
 
 
-string systemInfo = PowerShellHandler.Command("Write-Output 'Blue-Hippo!'");
+string output = PowerShellHandler.Command("Write-Output 'PowerShell in C#'");
 
-Console.WriteLine(systemInfo);
+Console.WriteLine(output);
 Console.ReadLine();
